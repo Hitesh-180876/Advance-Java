@@ -19,11 +19,11 @@ class My implements Test{
 }
 public class InterfacePractice {
 	public static void main(String[] args) {
-		Test t = new My();
+		Test t = new My();    //we can create reference of Interface 
 		t.meth1();
 		t.meth2();
 		My m = new My();
-		m.meth3();
+		m.meth3();  
 	}
 
 }
